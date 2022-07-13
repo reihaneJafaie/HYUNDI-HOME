@@ -1,0 +1,165 @@
+@import url('../reset.css');
+
+/** STYLE GENERAL**/
+
+body{
+     background-color: #ffff;
+     word-wrap: break-word;
+
+}
+
+.contaner{
+     width:1200px;
+     margin: auto;
+     
+}
+nav {
+     width: 100%;
+     margin: auto;
+     background-color: #f6f3f2; 
+     font-size: 16px;
+}
+nav li a:hover{
+     color: #002c5f;
+}
+
+
+H3{
+     font-size: 24px;
+     color: #002c5f;
+}
+h1{
+     font-size: 55px;
+     
+}
+
+h6{
+     font-size: 15px;
+     line-height: 27px;
+}
+
+article{
+     padding: 60px 0px;
+}
+
+/**NAV BAR**/
+nav .contaner{
+     display: flex;
+     align-items: center;
+     height: 71px; 
+     justify-content: space-between;
+     font-size: 17px;
+     font-weight: 900px;
+     font-family: Verdana, Geneva, sans-serif;
+     
+     
+}
+
+nav .logo{
+    display: flex;
+    flex-grow: 0.2;
+     height:20px;
+     width: 155px;
+}
+
+.logo:hover{
+     cursor: pointer;
+}
+
+nav a{
+     text-decoration: none;
+    color:#666;
+}
+
+
+nav .topBar li {
+     display: inline;
+     padding:0px 30px;
+}
+
+
+
+nav .itemBar li{
+     display: inline;
+     padding:  0px 8px;
+}
+
+
+.jsNav{
+     border-top: 2px solid rgb(233, 209, 177);
+     border-bottom: 2px solid rgb(233, 209, 177);
+     display: none;
+     /**ba js display ro block kon**/
+     
+}
+.jsBar{
+     display:flex ;
+     width: 1200px;
+     justify-content: space-between;
+     color: #666;
+}
+ #exid {
+    color: #002c5f;
+    font-size: 23px;
+    cursor: pointer;
+     
+     /*ba js megdaro kon 0.5*/
+     
+}
+
+
+/**FIRST ARTICLE**/
+
+
+
+
+
+/**footer**/
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer .contaner{
+    padding: 60px 0px;
+}
+
+.ulfooter{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    
+}
+
+
+.footerlist{
+    height: 150px;
+}
+
+.footerlist h2 {
+    line-height: 100px;
+    font-size: 22px;
+}
+
+.footerlist li{
+    color: #d8d3d1;
+    font-size: 16px;
+    line-height: 30px;
+}
+.footerlist li:hover{
+    cursor: pointer;
+    color: #807a77;
+}
+
+.footerlist span{
+    color: #d8d3d1;
+    font-size: 16px;
+    line-height: 30px;
+}  
+
+#itemsfooter{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
